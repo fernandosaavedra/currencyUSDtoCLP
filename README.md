@@ -26,7 +26,7 @@ activate <venv-name>
 #### 2. Clonning the Repo
 ~~~
 # Clone the Repository
-git clone https://github.com/fernandosaavedra/gitfernando.git
+git clone https://github.com/fernandosaavedra/currencyUSDtoCLP.git
 
 # Enter to Folder
 cd valorDolar
