@@ -8,21 +8,6 @@ The service must extract the historical information of the value of the Dollar t
 
 Then the service must respond to the consultation of the value in pesos of a dollar amount for a certain date, and vice versa.
 
-## Usage
-
-To display the value in pesos [clp] of the amount in dollars [usd], on the date [date], we will execute the following request.
-
-`[ GET: /clp?usd=XXXX&date=yyyymmdd ] `
-
-** If date field is empty, it takes the last record saved in database.*
-To display the value in USD of an amount of CLP on a certain date, we must execute the following request.
-
-`[ GET: /usd?clp=XXXX&date=yyyymmdd ] `
-
-** If date field is empty, it takes the last record saved in database.*
-
-__*To use this application, we reccomend download some tool for REST API testing like Postman<br/>__
-
 ## Installation
 
 For install this application, follow the next steps that are detailed below:
@@ -53,3 +38,18 @@ pip install -r requirements.txt
 ~~~
 #### 4. Enjoy it!
 Your app is ready to use!
+
+## Usage
+
+To display the value in pesos [clp] of the amount in dollars [usd], on the date [date], we will execute the following request.
+
+`[ GET: /clp?usd=XXXX&date=yyyymmdd ] `
+
+** If date field is empty, it takes the last record saved in database.*
+To display the value in USD of an amount of CLP on a certain date, we must execute the following request.
+
+`[ GET: /usd?clp=XXXX&date=yyyymmdd ] `
+
+** If date field is empty, it takes the last record saved in database.*
+
+__*To use this application, we reccomend download some tool for REST API testing like Postman<br/>__
