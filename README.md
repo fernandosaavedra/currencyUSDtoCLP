@@ -8,7 +8,7 @@ The service must extract the historical information of the value of the Dollar t
 
 Then the service must respond to the consultation of the value in pesos of a dollar amount for a certain date, and vice versa.
 
-## Code Samples
+## Usage
 
 To display the value in pesos [clp] of the amount in dollars [usd], on the date [date], we will execute the following request.
 
